@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 100%;
+}
+header{
+    background-color: rgb(188, 103, 199);
+     position: absolute;
+    left: 0;
+    top: 0; 
+    width: 100%;
+    padding: 20px 50px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+}
+.imagem{
+    width: 300px;
+    
+}
+a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: white;
+
+    
+}
+a:hover{
+    opacity: 1;
+    box-shadow: 10px 10px 80px 10px rgba(170, 10, 170, 0.8)
+}
+header nav{
+    display:flex ;
+    
+}
+header a{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+nave li{
+    display: inline-block;
+}
+.hero{
+    background-image: url("https://c.tenor.com/ga_-GfdZDtkAAAAC/purple-rain-wallpaper.gif");
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.hero h1 {
+    color: rgb(255, 255, 255); 
+    margin-bottom: 15px;
+}
+.hero h3{
+    color: rgb(255, 255, 255);
+    font-size: 2rem; 
+    margin-bottom: 15px;
+}
+.hero .btn{
+    background-color: rgb(219, 90, 176);
+    padding: 20px 50px;
+    border-radius: 7px;
+    color:black;
+    text-transform:uppercase;
+    margin-top: 400px;
+}
+.btn-container{
+    background-color: rgb(219, 90, 176);
+    padding: 20px 50px;
+    border-radius: 7px;
+    color:black;
+    text-transform:uppercase;
+    margin-top: 60px;
+}
+.know-the-hotel{
+    display: flex;
+    padding: 100px 50px;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(24, 23, 23);
+    
+}
+/* parte branca do meio */
+.know-the-hotel .grid{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 30px;
+    border: 10px solid rgb(248, 92, 248);
+    border-radius: 40px;
+    box-shadow: 10px 10px 200px 10px rgba(170, 10, 170, 0.424)
+    
+}
+.know-the-hotel .grid li{
+   height: 350px;
+   padding: 20px;
+   background-size: cover;
+   list-style: none;
+   background-position: centers;
+   background-clip: border-box;
+   border-radius:20px;
+   
+   
+}
+.know-the-hotel .small{
+ flex-basis: 40%;
+}
+.know-the-hotel .large{
+  flex-basis: 60%;
+}
+.know-the-hotel h3{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 35px;
+}
+.know-the-hotel p{
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 35px;
+    color: rgb(255, 255, 255);
+}
+.know-the-hotel hr{
+    width: 200px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 70px;
+}
+.features{
+    display: flex;
+    background-color: rgb(146, 105, 151);
+    padding: 100px 50px;
+    color:white;
+    flex-direction:column;
+    align-items: center;
+}
+
+.features .grid{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  
+}
+.features .grid h4{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    align-items: center;
+   
+}
+.features .grid li{
+   padding: 0 30px;
+   list-style: none;
+   
+}
+footer {
+    display: flex;
+    background-color: #000000;
+    padding: 100px 50px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+  }
+  .features hr{
+    width: 200px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 70px;
+  }
